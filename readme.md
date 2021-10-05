@@ -98,3 +98,10 @@ The developer of the script, [ayyybe](https://gist.github.com/ayyybe), explains 
 - I merely added the binary *CC_Offline_Package_Generator* which is `ccdl.py` packaged together with Python 3 using pyinstaller as well as added the .app and .dmg packaging.
 - *CC Folder Icon* by [Baklay](https://www.deviantart.com/baklay/gallery) and Arrow Vectors by [Vecteezy](https://www.vecteezy.com/free-vector/arrow)
 - Lincense: GPL 3.0 for my portions of the code
+
+FIX
+
+@elkaboing
+Go to "/Library/Application Support/Adobe/Adobe Desktop Common/HDBox/Install.app/Contents/Resources/"
+Make a copy of "CreativeCloudInstaller.icns" and rename the copy to "app.icns"
+It should work.
